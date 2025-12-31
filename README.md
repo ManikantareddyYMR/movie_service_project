@@ -1,1 +1,1 @@
-# movie_service_project
+# movie-service
