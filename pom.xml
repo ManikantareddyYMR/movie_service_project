@@ -69,6 +69,16 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+					<image>
+						<name>docker.io/manikantareddyymr/${project.artifactId}:${project.version}</name>
+						<publish>true</publish>
+					</image>
+					<docker>
+						<publishRegistery>
+							<username>{env.DOCKERHUB_USER}</username>
+							<password>{env.DOCKERHUB_PWD}</password>
+						</publishRegistery>
+					</docker>
 				</configuration>
 			</plugin>
 		</plugins>
