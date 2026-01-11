@@ -74,10 +74,10 @@
 						<publish>true</publish>
 					</image>
 					<docker>
-						<publishRegistery>
+						<publishRegistry>
 							<username>{env.DOCKERHUB_USER}</username>
 							<password>{env.DOCKERHUB_PWD}</password>
-						</publishRegistery>
+					<publishRegistry>
 					</docker>
 				</configuration>
 			</plugin>
